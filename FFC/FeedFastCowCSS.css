@@ -2,17 +2,127 @@ table {
 	padding: 15px;
 	width: 400;
 	height: 600;
-	border: none;
+	border: 5px;
 	background-image: url('img/campo.jpg');
 	background-size: 400px 600px;
+
 }
+
 td input[type="button"]{
 	width: 150px;
 	height: 150px;
-	background: linear-gradient(#2EFE2E, white);
-	
-}
+	/*background: linear-gradient(#2EFE2E, white);*/
+	}
+
 td input[type="text"]{
 	background-color: :white;
 	text-align: right;
+}
+.celular{
+	background-color:black;
+	width: 400px;
+	height: 30px;
+	color:white;
+	
+}
+.botonimageninicio{
+ width: 150px;
+	height: 150px;
+	background:url('img/002-naturaleza.png');
+  	background-repeat:no-repeat;
+  	background-size:100px 100px;
+  	background-color:#2EFE2E;
+  	background-position:center;
+  	display: inline-block;
+	min-width:50px;
+}
+.botonimagensesion{
+ width: 150px;
+	height: 150px;
+	background:url('img/003-agricultor.png');
+  	background-repeat:no-repeat;
+  	background-size:100px 100px;
+  	background-color:#2EFE2E;
+  	background-position:center;
+  	display: inline-block;
+	min-width:50px;
+}
+.botonimagenregistro{
+ width: 150px;
+	height: 150px;
+	background:url('img/001-nota.png');
+  	background-repeat:no-repeat;
+  	background-size:100px 100px;
+  	background-color:#2EFE2E;
+  	background-position:center;
+  	display: inline-block;
+	min-width:50px;
+}
+.botonimagenconsulta{
+ width: 150px;
+	height: 150px;
+	background:url('img/002-busqueda.png');
+  	background-repeat:no-repeat;
+  	background-size:100px 100px;
+  	background-color:#2EFE2E;
+  	background-position:center;
+  	display: inline-block;
+	min-width:50px;
+}
+.botonimagencontrol{
+ width: 150px;
+	height: 150px;
+	background:url('img/001-controles.png');
+  	background-repeat:no-repeat;
+  	background-size:100px 100px;
+  	background-color:#2EFE2E;
+  	background-position:center;
+  	display: inline-block;
+	min-width:50px;
+}
+.botonimagencontacto{
+ width: 150px;
+	height: 150px;
+	background:url('img/002-negocios.png');
+  	background-repeat:no-repeat;
+  	background-size:100px 100px;
+  	background-color:#2EFE2E;
+  	background-position:center;
+  	display: inline-block;
+	min-width:50px;
+}
+
+.botonimagenganado{
+ width: 150px;
+	height: 150px;
+	background:url('img/001-animal.png');
+  	background-repeat:no-repeat;
+  	background-size:100px 100px;
+  	background-color:#2EFE2E;
+  	background-position:center;
+  	display: inline-block;
+	min-width:50px;
+}
+
+.botonimagenlotes{
+ width: 150px;
+	height: 150px;
+	background:url('img/002-naturaleza.png');
+  	background-repeat:no-repeat;
+  	background-size:100px 100px;
+  	background-color:#2EFE2E;
+  	background-position:center;
+  	display: inline-block;
+	min-width:50px;
+}
+.botonimagenhorario{
+ width: 150px;
+	height: 150px;
+	background:url('img/003-horario-de-clases.png');
+  	background-repeat:no-repeat;
+  	background-size:100px 100px;
+  	background-color:#2EFE2E;
+  	background-position:center;
+  	display: inline-block;
+	min-width:50px;
 }
