@@ -2,6 +2,7 @@
 	<head>
 		<title>REGISTRO GANADERO</title>
 		<link rel="stylesheet" type="text/css" href=PlantillaModulosCSS.css>
+		<link rel='stylesheet' href='FormulariosCSS.css'>
 		<script type="text/javascript" src="FeedFastCowJS.js"></script>
 	</head>
 	<body>
@@ -19,23 +20,59 @@
    <li><a href="#" title="Enlace genérico">Regis. Genetico</a></li>
    <li><a href="#" title="Enlace genérico">Compra/Venta</a></li>
  </ul>
-			<tr>
-				<td><input type="button"  value= "INICIO" class= "botonimageninicio"  onClick="location='/Users/USER-LENOVO/Documents/8 SEMESTRE/INGENIERIA DE REQUISITOS/FFC/Registro.html'"/> </td>
-				<td><input  type="button" class= "botonimagensesion" value= "INICIAR SESION"  onClick="location='/Users/USER-LENOVO/Documents/8 SEMESTRE/INGENIERIA DE REQUISITOS/FFC/Registro.html'"/>
-				</td>
-			</tr>
-			<tr>
-				<td><input type="button" class= "botonimagenregistro" value= "REGISTRO"   onClick="location='/Users/USER-LENOVO/Documents/8 SEMESTRE/INGENIERIA DE REQUISITOS/FFC/Registro.html'"/> </td> 
-				<!-- onClick="location='/www.google.com'"/ -->
-				<td><input type="button" class= "botonimagenconsulta" value= "CONSULTA"  onClick="location='/Users/USER-LENOVO/Documents/8 SEMESTRE/INGENIERIA DE REQUISITOS/FFC/Registro.html'"/> </td>
-				</tr>
-			<tr>
-				<td><input type="button" class= "botonimagencontrol" value= "CONTROL"  onClick="location='/Users/USER-LENOVO/Documents/8 SEMESTRE/INGENIERIA DE REQUISITOS/FFC/Registro.html'"/> </td>
-				<td><input type="button" class= "botonimagencontacto" value= "CONTACTO"  onClick="location='/Users/USER-LENOVO/Documents/8 SEMESTRE/INGENIERIA DE REQUISITOS/FFC/Registro.html'"/> </td>
-			</tr>
-				
+</br>
+</br>
+</br>
+<div align="center">DATOS GENERALES</div>
+</br>
+</br>
+<img SRC="img/004-vaca.png" width= "140" height= "140" align="left" >
+
+		
+		<div class="nombreDiv3">ID: 34</div>
+ 
+		<p class="cabeceraRegDiv2">Nombre*</p>
+		<div class="nombreDiv2">nombre</div>
+
+		<p class="cabeceraRegDiv2">Fecha Nacimiento*</p>
+		<div class="nombreDiv2">dd/mm/yyyy</div>
+
+
+		<p class="cabeceraRegDiv2">Raza*</p>
+		<select class="combobxUbicacion2">
+		  <option value="Normanda">Normanda</option>
+		  <option value="Zebú">Zebú</option>
+		  <option value="Hoste">Hoster</option>
+		 
+		</select>
+		</br>
+
+		<p class="cabeceraRegDiv2">Proposito*</p>
+			<div align="left"> <input class="cbGenero2" name="cbGenero" type="checkbox" />Exhibicion </div>
+			<div align="left"> <input class="cbGenero2" name="cbGenero" type="checkbox" />Leche </div>
+			<div align="left"> <input class="cbGenero2" name="cbGenero" type="checkbox" />Carne </div>
+
+		<p class="cabeceraRegDiv2">Sexo*</div>
+			<div> <input class="cbGenero2" name="cbGenero" type="checkbox" />Hembra</div>
+			<input class="cbGenero2" name="cbGenero" type="checkbox" />Macho
+		</br>
+
+		<p class="cabeceraRegDiv2">Peso*</p>
+		<select class="combobxUbicacion2">
+		  <option value="50kg">50kg</option>
+		  <option value="100kg">100kg</option>
+		  <option value="1000kg">1000kg</option>
+		 
+		</select>
+		</br>
+</br></br>
+		
+		<button id="Siguiente" class="btnSiguiente">Siguiente</button>
+		 <button id="Siguiente" class="btnSiguiente">Cancelar</button>
+	</div>			
 			</table>
 						
 		</form>
 	</body>
 </html>
+
