@@ -126,3 +126,25 @@ td input[type="text"]{
   	display: inline-block;
 	min-width:50px;
 }
+.botonimagennutrientes{
+ width: 150px;
+  height: 150px;
+  background:url('img/001-ensalada.png');
+    background-repeat:no-repeat;
+    background-size:100px 100px;
+    background-color:#2EFE2E;
+    background-position:center;
+    display: inline-block;
+  min-width:50px;
+}
+.botonimagenvitaminas{
+ width: 150px;
+  height: 150px;
+  background:url('img/002-enema.png');
+    background-repeat:no-repeat;
+    background-size:100px 100px;
+    background-color:#2EFE2E;
+    background-position:center;
+    display: inline-block;
+  min-width:50px;
+}
