@@ -127,3 +127,15 @@ h1{
 	background-color: transparent;
     border-color: transparent;
 }
+.btnReabasteceer{
+	color: black;
+	background-color: green;
+    border-color: transparent;
+}
+
+.btnVaciar{
+	color:black;
+	background-color: red;
+    border-color: transparent;
+    width: 90px;
+}
