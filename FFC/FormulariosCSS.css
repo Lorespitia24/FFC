@@ -85,3 +85,45 @@ h1{
 	margin-left: 15px;
 	color:#D8D8D8;
 }
+
+.nombreDiv3{
+	border: 2px solid #4C9AFF;
+	width: 40px;
+	height:40px;
+	margin-left: 340px;
+	color:#D8D8D8;
+}
+.nombreDiv2{
+	border: 2px solid #4C9AFF;
+	width: 180px;
+	height:20px;
+	margin-left: 180px;
+	color:#D8D8D8;
+}
+.cabeceraRegDiv2{
+	color: #000000;
+	text-indent: 20px;
+	margin-top: 20px;
+	margin-bottom: 2px;
+	margin-left: 150px;
+}
+
+.combobxUbicacion2{
+	border: 2px solid #4C9AFF;
+	width: 180px;
+	height:20px;
+	margin-left: 180px;
+	color:black;
+}
+
+.cbGenero2{
+	margin-top: 0px;
+    margin-left: 180px;
+    color: black;
+}
+
+.btnSiguiente{
+	color: #4C9AFF;
+	background-color: transparent;
+    border-color: transparent;
+}
