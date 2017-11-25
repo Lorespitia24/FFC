@@ -21,6 +21,13 @@ table {
 	height: 100px;
 	
 }
+.encabezadoRegistroControl{
+	background-size: 400px 100px;
+	background-image: url('img/sistema.png');
+	background-repeat:no-repeat;
+	width: 400px;
+	height: 100px;
+}
 ul.menu {
 margin: 0;
 padding: 0;
