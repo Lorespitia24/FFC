@@ -139,3 +139,28 @@ h1{
     border-color: transparent;
     width: 90px;
 }
+.btnRegistrarLote{
+	width: 150px;
+	height:30px;
+	margin-top: 18px;
+    margin-left: 125px;
+    background-color: #4C9AFF;
+    border-color: #4C9AFF;
+    color: #FFFFFF;
+}
+.divCabeceraHorario{
+	width: 250px;
+	height: 25px;
+	background-color: #000000;
+	color: #FFFFFF;
+
+}
+.btnRegHorario{
+	width: 130px;
+    height: 30px;
+    color: #000000;
+    border: 2px solid #a7a6a6;
+    background-color: #b2b2b2;
+    margin-top: 18px;
+    margin-left: 45px;
+}

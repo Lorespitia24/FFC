@@ -148,3 +148,86 @@ td input[type="text"]{
     display: inline-block;
   min-width:50px;
 }
+.cabeceraCel{
+  background-color:black;
+  width: 400px;
+  height: 30px;
+  color:white;
+  text-align: center;
+}
+
+#TablaGeneral{
+    width: 400px;
+    background-image: none;
+    background-color: #FFFFFF;
+
+  }
+  .cabeceraTabla{
+    border: 2px solid #add33c;
+    background-color: #A7C941;
+    text-align: center;
+    color: #FFFFFF;
+    
+  }
+  .contenidoTabla1{
+     border: 2px solid #add33c;
+    background-color:  #FFFFFF;
+    text-align: left;
+  }
+  .contenidoTabla2{
+     border: 2px solid #add33c;
+    background-color: #ebf2d3;
+    text-align: left;
+    font-family: "Arial";
+   
+  }
+  .btnVer{
+    text-align: center;
+    width: 75px;
+    height: 20px;
+    border: 2px solid #4ea692;
+    color: #4ea692;
+    background-color: #FFFFFF;
+  }
+  .btnRemover{
+    width: 75px;
+    height: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    border: 2px solid #ba3400;
+    background-color: #ba3400;
+  }
+  .btnHorario{
+    width: 130px;
+    height: 30px;
+    color: #000000;
+    border: 2px solid #000000;
+    background-color: #FFFFFF;
+    
+  }
+  .btnSeleccionado{
+    width: 130px;
+    height: 30px;
+    color: #FFFFFF;
+    border:3px;
+    background-color: #4C9AFF;
+    border-color:  #4C9AFF;
+  }
+  .cabeceraTablaHorario{
+    font-family: "Arial";
+    border: 1.5px solid #4C9AFF;
+
+
+  }
+  .TablaHorario{
+    font-family: "Arial";
+    text-align: center;
+     border: 1.5px solid #4C9AFF;
+     margin: 0px;
+  }
+  .editar{
+    text-align: center;
+    align-items: center;
+    font-size: 0.8em;
+  }
+ 
