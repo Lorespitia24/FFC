@@ -1,16 +1,16 @@
 table {
 	padding: 15px;
-	width: 400;
-	height: 600;
+	width: 328px;
+	height: 490px;
 	border: 5px;
 	background-image: url('img/campo.jpg');
-	background-size: 400px 600px;
+	background-size: 328px 548px;
 
 }
 
 td input[type="button"]{
-	width: 150px;
-	height: 150px;
+	width: 120px;
+	height: 120px;
 	/*background: linear-gradient(#2EFE2E, white);*/
 	}
 
@@ -20,14 +20,14 @@ td input[type="text"]{
 }
 .celular{
 	background-color:black;
-	width: 400px;
+	width: 328px;
 	height: 30px;
 	color:white;
 	
 }
 .botonimageninicio{
- width: 150px;
-	height: 150px;
+ width: 120px;
+	height: 120px;
 	background:url('img/002-naturaleza.png');
   	background-repeat:no-repeat;
   	background-size:100px 100px;
@@ -37,8 +37,8 @@ td input[type="text"]{
 	min-width:50px;
 }
 .botonimagensesion{
- width: 150px;
-	height: 150px;
+ width: 120px;
+	height: 120px;
 	background:url('img/003-agricultor.png');
   	background-repeat:no-repeat;
   	background-size:100px 100px;
@@ -48,8 +48,8 @@ td input[type="text"]{
 	min-width:50px;
 }
 .botonimagenregistro{
- width: 150px;
-	height: 150px;
+ width: 120px;
+	height: 120px;
 	background:url('img/001-nota.png');
   	background-repeat:no-repeat;
   	background-size:100px 100px;
@@ -59,8 +59,8 @@ td input[type="text"]{
 	min-width:50px;
 }
 .botonimagenconsulta{
- width: 150px;
-	height: 150px;
+ width: 120px;
+	height: 120px;
 	background:url('img/002-busqueda.png');
   	background-repeat:no-repeat;
   	background-size:100px 100px;
@@ -70,8 +70,8 @@ td input[type="text"]{
 	min-width:50px;
 }
 .botonimagencontrol{
- width: 150px;
-	height: 150px;
+width: 120px;
+  height: 120px;
 	background:url('img/001-controles.png');
   	background-repeat:no-repeat;
   	background-size:100px 100px;
@@ -81,8 +81,8 @@ td input[type="text"]{
 	min-width:50px;
 }
 .botonimagencontacto{
- width: 150px;
-	height: 150px;
+ width: 120px;
+  height: 120px;
 	background:url('img/002-negocios.png');
   	background-repeat:no-repeat;
   	background-size:100px 100px;
@@ -93,8 +93,8 @@ td input[type="text"]{
 }
 
 .botonimagenganado{
- width: 150px;
-	height: 150px;
+ width: 120px;
+  height: 120px;
 	background:url('img/001-animal.png');
   	background-repeat:no-repeat;
   	background-size:100px 100px;
@@ -105,8 +105,8 @@ td input[type="text"]{
 }
 
 .botonimagenlotes{
- width: 150px;
-	height: 150px;
+ width: 120px;
+  height: 120px;
 	background:url('img/002-naturaleza.png');
   	background-repeat:no-repeat;
   	background-size:100px 100px;
@@ -116,8 +116,8 @@ td input[type="text"]{
 	min-width:50px;
 }
 .botonimagenhorario{
- width: 150px;
-	height: 150px;
+ width: 120px;
+  height: 120px;
 	background:url('img/003-horario-de-clases.png');
   	background-repeat:no-repeat;
   	background-size:100px 100px;
@@ -127,8 +127,8 @@ td input[type="text"]{
 	min-width:50px;
 }
 .botonimagennutrientes{
- width: 150px;
-  height: 150px;
+width: 120px;
+  height: 120px;
   background:url('img/001-ensalada.png');
     background-repeat:no-repeat;
     background-size:100px 100px;
@@ -138,8 +138,8 @@ td input[type="text"]{
   min-width:50px;
 }
 .botonimagenvitaminas{
- width: 150px;
-  height: 150px;
+ width: 120px;
+  height: 120px;
   background:url('img/002-enema.png');
     background-repeat:no-repeat;
     background-size:100px 100px;
@@ -150,14 +150,15 @@ td input[type="text"]{
 }
 .cabeceraCel{
   background-color:black;
-  width: 400px;
+  width: 328px;
   height: 30px;
   color:white;
   text-align: center;
 }
 
 #TablaGeneral{
-    width: 400px;
+    width: 328px;
+    height: auto;
     background-image: none;
     background-color: #FFFFFF;
 
@@ -167,19 +168,24 @@ td input[type="text"]{
     background-color: #A7C941;
     text-align: center;
     color: #FFFFFF;
+    font-family: "Arial";
+    font-size:12px;
+
     
   }
   .contenidoTabla1{
      border: 2px solid #add33c;
     background-color:  #FFFFFF;
     text-align: left;
+    font-family: "Arial";
+    font-size:12px;
   }
   .contenidoTabla2{
      border: 2px solid #add33c;
     background-color: #ebf2d3;
     text-align: left;
     font-family: "Arial";
-   
+   font-size:12px;
   }
   .btnVer{
     text-align: center;
@@ -198,7 +204,7 @@ td input[type="text"]{
     background-color: #ba3400;
   }
   .btnHorario{
-    width: 130px;
+    width: 105px;
     height: 30px;
     color: #000000;
     border: 2px solid #000000;
@@ -206,7 +212,7 @@ td input[type="text"]{
     
   }
   .btnSeleccionado{
-    width: 130px;
+    width: 105px;
     height: 30px;
     color: #FFFFFF;
     border:3px;
