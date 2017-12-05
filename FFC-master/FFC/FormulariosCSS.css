@@ -208,3 +208,19 @@ h1{
 	font-family: "Arial";
 	font-size: 14px;
 }
+#PrincipalControl{
+background-image: url('img/cel - copia.png');
+		width: 372px;
+		height: 925px;
+		position: relative;
+		margin-bottom: auto;	
+}
+.PrincipalInternoControl{
+	border: 1px solid #000000;
+	width: 328px;
+	height: 730px;
+	position: relative;
+	left: 22px;
+	right: 11px;
+	top: 60px;
+}
